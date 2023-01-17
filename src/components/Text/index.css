@@ -1,0 +1,63 @@
+.text__body {
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.text__small {
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+
+.text__xs {
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+}
+
+
+.text__bold {
+    font-weight: bold;
+}
+
+.text__primary {
+    color: var(--color-primary);
+}
+
+.text__secondary {
+    color: var(--color-secondary);
+}
+
+.text__grey {
+    color: var(--color-grey);
+}
+
+.text__inherit {
+    color: inherit;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .text__body {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .text__small {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .text__xs {
+        font-size: 11px;
+        line-height: 14px;
+    }
+}

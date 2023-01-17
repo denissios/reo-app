@@ -1,0 +1,63 @@
+.lotWrapper {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+}
+.col:nth-child(1) {
+    flex: 2
+}
+.col:not(:first-child) {
+    border-left: 1px solid var(--color-border-light);
+}
+
+.col > *:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    position: relative;
+    top: -1px;
+    color: var(--color-grey);
+    font-size: 16px !important;
+    margin-right: 5px;
+}
+
+.totalPriceWrapper {
+    display: flex;
+    position: relative;
+}
+
+.totalPriceVAT {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: var(--color-light);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .lotWrapper {
+        flex-direction: column;
+    }
+
+    .col:not(:first-child) {
+        border-left: none;
+        border-top: 1px solid var(--color-border-light);
+        padding: 10px 20px;
+    }
+}

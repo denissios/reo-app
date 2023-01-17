@@ -1,0 +1,23 @@
+:root {
+    --color-primary: #1c1c1c;
+    --color-secondary: #009130;
+    --color-grey: #a6a6a6;
+    --color-light: #e8e8e8;
+    --color-border: #009130;
+    --color-border-light: #c4c4c4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.lots__wrapper {
+    margin: 20px;
+}
+
+.info__text {
+    margin-top: 20px;
+    text-align: center;
+}
